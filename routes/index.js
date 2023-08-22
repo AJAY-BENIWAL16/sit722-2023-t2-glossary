@@ -84,12 +84,72 @@ const items = [
 
 { 'id': 20, 'Term': 'Infrastructure as Code (IaC)',
   'Description': 'Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure using code and configuration files. It allows for versioning, repeatability, and consistency in infrastructure setup, enabling more efficient and scalable infrastructure management.',
-  'reference': 'What is Infrastructure as Code (IaC)? (no date) www.redhat.com. Available at: https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F- (Accessed: 5 August 2023).' }
+  'reference': 'What is Infrastructure as Code (IaC)? (no date) www.redhat.com. Available at: https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F- (Accessed: 5 August 2023).' },
 
+{
+  'id': 21,
+      'Term': 'Dependency Injection',
+      'Description': "Dependency Injection means arranging a class to get the things it needs from the outside, rather than making them inside the class. This makes the code easier to handle and test.",
+      'reference': 'Martin Fowler. (2004). Inversion of Control Containers and the Dependency Injection pattern.  Available at: https://martinfowler.com/articles/injection.html'
+},
+    {
+      'id': 22,
+      'Term': 'Infrastructure Automation',
+      'Description': "Infrastructure Automation involves using tools and scripts to make computers and systems set themselves up automatically. This helps avoid mistakes and keeps everything consistent.",
+      'reference': 'HashiCorp. (n.d.). What is Infrastructure as Code (IAC)? Available at: https://www.hashicorp.com/resources/what-is-infrastructure-as-code'
+    },
+    {
+      'id': 23,
+      'Term': 'Log Management',
+      'Description': "Log Management is about collecting, saving, and analyzing the information that programs and computers write down about what they're doing. This helps find problems, check how well things are working, and keep things safe.",
+      'reference': 'Loggly. (n.d.). What is Log Management?  Available at: https://www.loggly.com/ultimate-guide/what-is-log-management/'
+    },
+    {
+      'id': 24,
+      'Term': 'Azure Kubernetes Service (AKS)',
+      'Description': "Azure Kubernetes Service (AKS) is a helpful tool from Microsoft. It helps put small pieces of software into containers and manages them so they're easy to use, no matter if there's a lot or a little.",
+      'reference': 'Microsoft. (n.d.). Azure Kubernetes Service (AKS).  Available at: https://azure.microsoft.com/en-us/services/kubernetes-service/'
+    },
+    {
+      'id': 25,
+      'Term': 'Site Reliability Engineering (SRE)',
+      'Description': "Site Reliability Engineering (SRE) is like making sure a big computer system runs smoothly. People who do this mix computer programming with taking care of things to make sure everything works fast and never breaks.",
+      'reference': 'Google Cloud. (n.d.). What is Site Reliability Engineering (SRE)?  Available at: https://cloud.google.com/solutions/site-reliability-engineering'
+    },
+    {
+      'id': 26,
+      'Term': 'Container Orchestration',
+      'Description': "Container Orchestration is like being the conductor of a big orchestra of software. It's about making sure all the different pieces of software work together in a balanced and smooth way.",
+      'reference': 'Red Hat. (n.d.). What is Container Orchestration?  Available at: https://www.redhat.com/en/topics/containers/what-is-container-orchestration'
+    },
+    {
+      'id': 27,
+      'Term': 'Azure Functions Premium Plan',
+      'Description': "Azure Functions Premium Plan is a special way to use a Microsoft service that lets you run your small pieces of code quickly and often. This is good for when lots of people want to use your code at the same time.",
+      'reference': 'Microsoft. (n.d.). Azure Functions Premium Plan.  Available at: https://azure.microsoft.com/en-us/services/functions/'
+    },
+    {
+      'id': 28,
+      'Term': 'Immutable Infrastructure',
+      'Description': "Immutable Infrastructure is like treating your computer setup like paper plates. Once you make it, you don't change it; you just make a new one when you need to. This makes things strong and steady.",
+      'reference': 'Pulumi. (n.d.). What is Immutable Infrastructure?  Available at: https://www.pulumi.com/blog/immutable-infrastructure-explained/'
+    },
+    {
+      'id': 29,
+      'Term': 'Azure Monitor',
+      'Description': "Azure Monitor is a helper in Microsoft's computer world. It helps keep an eye on all the things happening in your computer programs, like a helpful assistant pointing out problems before they become big.",
+      'reference': 'Microsoft. (n.d.). What is Azure Monitor?  Available at: https://azure.microsoft.com/en-us/services/monitor/'
+    },
+    {
+      'id': 30,
+      'Term': 'Chaos Engineering',
+      'Description': "Chaos Engineering is like practicing for when things go wrong. You pretend bad stuff happens to your computer system on purpose to learn how to fix it faster and make it work better.",
+      'reference': 'Gremlin. (n.d.). What is Chaos Engineering?  Available at: https://www.gremlin.com/chaos-engineering/'
+    }
+  ];
+   
   
   
-  
-];
 
 
 
@@ -99,4 +159,3 @@ router.get('/', function (req, res, next) {
 });
 
 module.exports = router;
-
