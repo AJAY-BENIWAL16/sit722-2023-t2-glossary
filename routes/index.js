@@ -145,7 +145,78 @@ const items = [
       'Term': 'Chaos Engineering',
       'Description': "Chaos Engineering is like practicing for when things go wrong. You pretend bad stuff happens to your computer system on purpose to learn how to fix it faster and make it work better.",
       'reference': 'Gremlin. (n.d.). What is Chaos Engineering?  Available at: https://www.gremlin.com/chaos-engineering/'
-    }
+    },
+    {
+  
+  "id": 31,
+  "Term": "Kubectl",
+  "Description": "Kubectl is a command-line tool used for interacting with Kubernetes clusters. It allows users to deploy and manage applications, inspect and debug running containers, and perform various administrative tasks within a Kubernetes environment.",
+  "reference": "Glossary (no date) Kubernetes. Available at: https://kubernetes.io/docs/reference/glossary/?fundamental=true."
+},
+
+{
+  "id": 32,
+  "Term": "Azure DevOps",
+  "Description": "Azure DevOps includes a suite of tools and services provided by Microsoft Azure, designed to facilitate the entire DevOps lifecycle, covering tasks from project planning and coding to testing and deployment.",
+  "reference": "Microsoft Azure Tutorial (no date) www.tutorialspoint.com. Available at: https://www.tutorialspoint.com/microsoft_azure/index.htm."
+},
+
+{
+  "id": 33,
+  "Term": "Kubernetes Pods",
+  "Description": "Kubernetes Pods represent the smallest units that can be deployed in a Kubernetes cluster, housing one or more containers with shared network and storage resources.",
+  "reference": "Glossary (no date) Kubernetes. Available at: https://kubernetes.io/docs/reference/glossary/?fundamental=true."
+},
+
+{
+  "id": 34,
+  "Term": "Azure Resource Group",
+  "Description": "An Azure Resource Group serves as a logical container for efficiently managing and organizing Azure resources, simplifying the administration and monitoring of interconnected resources.",
+  "reference": "Microsoft Azure Tutorial (no date) www.tutorialspoint.com. Available at: https://www.tutorialspoint.com/microsoft_azure/index.htm."
+},
+
+{
+  "id": 35,
+  "Term": "Kubernetes Namespace",
+  "Description": "Kubernetes Namespaces offer a means to logically partition and segregate resources within a cluster, enhancing resource management and access control.",
+  "reference": "Glossary (no date) Kubernetes. Available at: https://kubernetes.io/docs/reference/glossary/?fundamental=true."
+},
+
+{
+  "id": 36,
+  "Term": "Azure Functions",
+  "Description": "Azure Functions is a serverless computing service within Azure that enables the execution of event-triggered code without the need for managing underlying infrastructure.",
+  "reference": "Microsoft Azure Tutorial (no date) www.tutorialspoint.com. Available at: https://www.tutorialspoint.com/microsoft_azure/index.htm."
+},
+
+{
+  "id": 37,
+  "Term": "Kubernetes Ingress",
+  "Description": "Kubernetes Ingress is an API object used to oversee external access to services inside a cluster, typically utilized for routing and load balancing of HTTP traffic.",
+  "reference": "Glossary (no date) Kubernetes. Available at: https://kubernetes.io/docs/reference/glossary/?fundamental=true."
+},
+
+{
+  "id": 38,
+  "Term": "Azure DevOps Pipelines",
+  "Description": "Azure DevOps Pipelines is a service that streamlines application development by automating the build, testing, and deployment processes, providing robust continuous integration and continuous delivery (CI/CD) capabilities.",
+  "reference": "Microsoft Azure Tutorial (no date) www.tutorialspoint.com. Available at: https://www.tutorialspoint.com/microsoft_azure/index.htm."
+},
+
+{
+  "id": 39,
+  "Term": "Kubernetes Helm",
+  "Description": "Helm is a Kubernetes package manager designed to simplify the deployment and management of applications and services through the use of preconfigured charts.",
+  "reference": "Glossary (no date) Kubernetes. Available at: https://kubernetes.io/docs/reference/glossary/?fundamental=true."
+},
+
+{
+  "id": 40,
+  "Term": "Staging Environment",
+  "Description": "It is a controlled and isolated environment where software and applications are tested before deployment to the production environment. It allows for thorough testing, identification of issues, and validation of changes to minimize risks during the actual release.",
+  "reference": "Reynolds, J. (2022) What Is a Staging Environment? How to Get It Right, Plutora. Available at: https://www.plutora.com/blog/what-staging-environment-how-get-it-right (Accessed: 10 September 2023)."
+}
+
   ];
    
   
