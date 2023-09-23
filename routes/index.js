@@ -215,7 +215,67 @@ const items = [
   "Term": "Staging Environment",
   "Description": "It is a controlled and isolated environment where software and applications are tested before deployment to the production environment. It allows for thorough testing, identification of issues, and validation of changes to minimize risks during the actual release.",
   "reference": "Reynolds, J. (2022) What Is a Staging Environment? How to Get It Right, Plutora. Available at: https://www.plutora.com/blog/what-staging-environment-how-get-it-right (Accessed: 10 September 2023)."
-}
+},
+{
+  'id': 41,
+  'Term': 'Secure DevOps (DevSecOps)',
+  'Description': 'Secure DevOps, often referred to as DevSecOps, it is an approach that will integrates security practices within the DevOps process. It emphasizes on collaboration and shared responsibility for security, ensuring that security is addressed at every stage of software development and delivery.',
+  "reference": "DevOps and Security Glossary Terms (no date) Sumo Logic. Available at: https://www.sumologic.com/glossary/#D (Accessed: 23 September 2023)."
+},
+{
+  'id': 42,
+  'Term': 'Threat Modeling',
+  'Description': 'Threat modeling is a structured approach for identifying and evaluating the potential security threats and their vulnerabilities in a system. It helps us in understanding possible attack vectors and designing appropriate security measures to mitigate risks.'
+  ,"reference": "DevOps and Security Glossary Terms (no date) Sumo Logic. Available at: https://www.sumologic.com/glossary/#T (Accessed: 23 September 2023)."
+},
+{
+  'id': 43,
+  'Term': 'Security Automation',
+  'Description': 'Security automation involves using automated tools and processes to ease the process and enhance security-related tasks, such as vulnerability scanning, security testing, and incident response. It helps us in achieving consistent and efficient security practices.'
+  ,"reference": "DevOps and Security Glossary Terms (no date) Sumo Logic. Available at: https://www.sumologic.com/glossary/#S (Accessed: 23 September 2023)."
+},
+{
+  'id': 44,
+  'Term': 'Compliance as Code (CaC)',
+  'Description': 'Compliance as Code (CaC) is an approach to managing and enforcing compliance requirements using code and automation. It allows for the automation of compliance checks and ensures that systems adhere to regulatory and organizational standards.'
+  ,"reference": "Decoder: Compliance as code (no date) Thoughtworks. Available at: https://www.thoughtworks.com/en-au/insights/decoder/c/compliance-as-code (Accessed: 23 September 2023)."
+},
+{
+  'id': 45,
+  'Term': 'Testing-as-a-Service (TaaS)',
+  'Description': 'It is outsourcing testing needs for organizations exceeding their in-house capacity. It involves engaging a third-party provider to enhance software development speed and quality using their testing expertise and automation tools.'
+  ,"reference": "Testing-as-a-Service (TaaS) - definition & overview (no date) Sumo Logic. Available at: https://www.sumologic.com/glossary/testing-as-a-service/ (Accessed: 23 September 2023)."
+},
+{
+  'id': 46,
+  'Term': 'Security Testing Automation',
+  'Description': 'Security testing automation involves using automated tools and scripts to conduct various security tests, including penetration testing, vulnerability scanning, and code analysis. It helps in identifying security vulnerabilities and weaknesses in software applications.'
+  ,"reference": "DevOps and Security Glossary Terms (no date) Sumo Logic. Available at: https://www.sumologic.com/glossary/#D (Accessed: 23 September 2023)."
+},
+{
+  'id': 47,
+  'Term': 'AI in DevOps',
+  'Description': 'AI in DevOps involves integrating artificial intelligence and machine learning techniques into the DevOps process to enhance decision-making, automate repetitive tasks, and gain insights from data to improve software development and operations.'
+
+  ,"reference": "The Role of AI in DevOps (no date) about.gitlab.com. Available at: https://about.gitlab.com/topics/devops/the-role-of-ai-in-devops/ (Accessed: 23 September 2023)."},
+{
+  'id': 48,
+  'Term': 'MLops (Machine Learning Operations)',
+  'Description': 'MLops, it is a set of practices and tools that aim to streamline and automate the deployment, management, and monitoring of machine learning models. It ensures the efficient integration of machine learning into the software development lifecycle.'
+
+  ,"reference": "Machine Learning Operations (MLOps) | Microsoft Azure (no date) azure.microsoft.com. Available at: https://azure.microsoft.com/en-au/products/machine-learning/mlops/ (Accessed: 23 September 2023)."},
+{
+  'id': 49,
+  'Term': 'AIOps (Artificial Intelligence for IT Operations)',
+  'Description': 'AIOps, it involves the application of artificial intelligence and machine learning to optimize and automate IT operations. It helps us in proactive monitoring, detecting anomay, and efficient incident management.'
+
+  ,"reference": "What is AIOps? | IBM (no date) www.ibm.com. Available at: https://www.ibm.com/topics/aiops#:~:text=the%20next%20step-."},
+{
+  'id': 50,
+  'Term': 'Automated Security Incident Response',
+  'Description': 'it refers to the automated handling of security incidents in an efficient manner. It involves the use of predefined response actions and workflows that are triggered by security alerts to reduce and contain security threats.'
+
+  ,"reference": "0xffccdd (2023) Automated Incident Response Tools, Medium. Available at: https://medium.com/@cloud_tips/automated-incident-response-tools-e953c957c57e."}
 
   ];
    
